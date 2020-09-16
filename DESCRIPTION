@@ -1,0 +1,9 @@
+Package: musculusColors
+Type: Package
+Title: Blue whale themed R color palettes
+Version: 0.1.0
+Author: Dawn Barlow
+Maintainer: Dawn Barlow <dawn.barlow@oregonstate.edu>
+Description: Blue whale inspired color palettes for data visualization in R
+Encoding: UTF-8
+LazyData: true
