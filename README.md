@@ -7,7 +7,9 @@ The colors of our favorite whale species saved in R color palettes. Inspired by 
 
 The [`paletter`](http://www.milanor.net/blog/build-color-palette-from-image-with-paletter/) package was used to extract color from images and structure of code was inspired by the [`PNWColors`](https://github.com/jakelawlor/PNWColors) package.
 
-Image Copyright GEMM Lab, Marine Mammal Institute, Oregon State University
+Image Copyright GEMM Lab, Marine Mammal Institute, Oregon State University.  
+Gray whale images collected under NOAA/NMFS permit #16111 and #21678.  
+
 
 ## Install
 ```r
