@@ -92,3 +92,37 @@ ggplot(diamonds, aes(x=cut, y=carat, fill = cut)) +
   theme_classic()
 ```
 <img src="Images/Bmpoop_example" width="500"/>
+
+```r
+ggplot(diamonds, aes(carat, fill = cut)) +
+  geom_density(position = "stack") +
+  scale_fill_manual(values=musculus_palette("ErFluke",5, type = "discrete"))  +
+  theme_classic()
+```
+<img src="Images/ErFluke_ex.png" width="500"/>
+
+```r
+ggplot(diamonds, aes(x=cut, y=carat, fill = cut)) +
+  geom_boxplot() +
+  scale_fill_manual(values=musculus_palette("ErHead", 5))  +
+  theme_classic()
+```
+<img src="Images/ErHead_ex.png" width="500"/>
+
+```r
+library(hexbin)
+ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
+  geom_hex() +
+  coord_fixed() +
+  scale_fill_gradientn(colours = rev(musculus_palette("ErMole", n=50))) +
+  theme_classic()
+```
+<img src="Images/ErMole_ex.png" width="500"/>
+
+```r
+ggplot(diamonds, aes(depth, carat,fill = cut)) +
+  geom_violin(trim=FALSE) +
+  scale_fill_manual(values=musculus_palette("ErWhale", 5))  +
+  theme_classic()
+```
+<img src="Images/ErWhale_ex.png" width="500"/>
