@@ -31,12 +31,12 @@ names(Bm_palettes)
 ### Blue Whales (Balaenoptera musculus)
 
 ```r
-musculus_palette("Bmlunge", n=50)
+musculus_palette("Bmlunge")
 ```
 <img src="Images/Bm_lunge.jpg" width="500"/>
 
 ```r
-musculus_palette("Bmsurface", n=100)
+musculus_palette("Bmsurface")
 ```
 <img src="Images/Bm_surface.jpg/" width="500"/>
 
@@ -68,6 +68,7 @@ musculus_palette("ErMole")
 
 ## Example Plots
 ```r
+library(hexbin)
 ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
   geom_hex() +
   coord_fixed() +
