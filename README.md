@@ -10,11 +10,11 @@ The [`paletter`](http://www.milanor.net/blog/build-color-palette-from-image-with
 Image Copyright GEMM Lab, Marine Mammal Institute, Oregon State University.  
 Gray whale images collected under NOAA/NMFS permit #16111 and #21678.  
 
-**Table of Contents**
-[Install](#Install)
-[Running](#Running-the-package)
-[Palettes](#Palettes)
-[Example Plots](#Example-Plots)
+**Table of Contents**  
+[Install](#Install)   
+[Running](#Running-the-package)   
+[Palettes](#Palettes)  
+[Example Plots](#Example-Plots)  
 
 
 ## Install
