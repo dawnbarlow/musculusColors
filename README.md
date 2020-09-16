@@ -30,17 +30,17 @@ names(Bm_palettes)
 ```r
 musculus_palette("Bmlunge", n=50)
 ```
-<img src="Images/Bmlung.jpg">
+<img src="Images/Bm_lunge.jpg">
 
 ```r
 musculus_palette("Bmsurface", n=100)
 ```
-<img src="Images/">
+<img src="Images/Bm_surface.jpg/">
 
 ```r
 musculus_palette("Bmpoop")
 ```
-<img src="Images/">
+<img src="Images/Bm_poop.jpg/">
 
 ### Gray Whales (Eschrichtius robustus)
 ```r
