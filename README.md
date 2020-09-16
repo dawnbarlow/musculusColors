@@ -56,7 +56,7 @@ ErWhale
 ```r
 ErHead
 ```
-<img src="Images/Er_submerged.jpg">
+<img src="Images/Er_submerged.JPG">
 
 ```r
 ErMole
