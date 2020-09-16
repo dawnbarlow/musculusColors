@@ -1,5 +1,5 @@
 # musculusColors
-Blue whale inspired R color palette
+Blue whale inspired R color palette, with some gray whales thrown in there :)
 
 The colors of our favorite whale species saved in R color palettes. Inspired by the images of the whales they study [GEMM lab](https://mmi.oregonstate.edu/gemm-lab) graduate students [Dawn Barlow](https://github.com/dawnbarlow) and [Clara Bird](https://github.com/cbirdferrer) have created this R color palette package.
 
@@ -20,7 +20,8 @@ devtools::install_github("dawnbarlow/musculusColors")
 ```r
 library(musculusColors)
 names(Bm_palettes)
-  [1] "Bmlunge"   "Bmsurface" "Bmpoop"
+  [1] "Bmlunge"   "Bmsurface" "Bmpoop"    "ErFluke"   "ErHead"    "ErMole"   
+  [7] "ErWhale"
 ```
 
 ## Palettes
