@@ -30,37 +30,37 @@ names(Bm_palettes)
 ```r
 musculus_palette("Bmlunge", n=50)
 ```
-<img src="ReadMeFigures/Bmlung.jpg">
+<img src="Images/Bmlung.jpg">
 
 ```r
 musculus_palette("Bmsurface", n=100)
 ```
-<img src="ReadMeFigures/">
+<img src="Images/">
 
 ```r
 musculus_palette("Bmpoop")
 ```
-<img src="ReadMeFigures/">
+<img src="Images/">
 
 ### Gray Whales (Eschrichtius robustus)
 ```r
 ErFluke
 ```
-<img src="ReadMeFigures/Er_flukes">
+<img src="Images/Er_flukes.jpg">
 
 ```r
 ErWhale
 ```
-<img src="ReadMeFigures/Er_whale">
+<img src="Images/Er_whale.jpg">
 
 ```r
 ErHead
 ```
-<img src="ReadMeFigures/Er_submerged">
+<img src="Images/Er_submerged.jpg">
 
 ```r
 ErMole
 ```
-<img src="ReadMeFigures/Er_mole">
+<img src="Images/Er_mole.jpg">
 
 ## Example Plots
