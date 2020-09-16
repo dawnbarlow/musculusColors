@@ -47,23 +47,47 @@ musculus_palette("Bmpoop")
 
 ### Gray Whales (Eschrichtius robustus)
 ```r
-ErFluke
+musculus_palette("ErFluke")
 ```
 <img src="Images/Er_flukes.jpg" width="500"/>
 
 ```r
-ErWhale
+musculus_palette("ErWhale")
 ```
 <img src="Images/Er_whale.jpg" width="500"/>
 
 ```r
-ErHead
+musculus_palette("ErHead")
 ```
 <img src="Images/Er_submerged.JPG" width="500"/>
 
 ```r
-ErMole
+musculus_palette("ErMole")
 ```
 <img src="Images/Er_mole.jpg" width="500"/>
 
 ## Example Plots
+```r
+ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
+  geom_hex() +
+  coord_fixed() +
+  scale_fill_gradientn(colours = musculus_palette("Bmlunge", n=50)) +
+  theme_classic()
+```
+<img src="Images/Bmlunge_example.png" width="500"/>
+
+```r
+ggplot(diamonds, aes(carat, fill = cut)) +
+  geom_density(position = "stack") +
+  scale_fill_manual(values=musculus_palette("Bmsurface",5, type = "discrete"))  +
+  theme_classic()
+```
+<img src="Images/Bmsurface_example.png" width="500"/>
+
+```r
+ggplot(diamonds, aes(x=cut, y=carat, fill = cut)) +
+  geom_boxplot() +
+  scale_fill_manual(values=musculus_palette("Bmpoop", 5))  +
+  theme_classic()
+```
+<img src="Images/Bmpoop_example" width="500"/>
