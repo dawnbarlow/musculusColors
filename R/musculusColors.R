@@ -11,7 +11,12 @@
 Bm_palettes <- list(
   Bmlunge = rbind(c("#D6EBEC", "#7AD8DF", "#51D2DA", "#34AAB6", "#3D7688", "#306F83"), c(1,2,3,4,5,6)),
   Bmsurface  = rbind(c("#F0F2F8", "#D2DCF0", "#A0B7D8", "#7696BE", "#606A81", "#384157"), c(1,2,3,4,5,6)),
-  Bmpoop = rbind(c("#F7C8A4", "#C1A59D", "#979A9B", "#7795A2", "#497889"), c(1,2,3,4,5))
+  Bmpoop = rbind(c("#F7C8A4", "#C1A59D", "#979A9B", "#7795A2", "#497889"), c(1,2,3,4,5)),
+
+  ErFluke = rbind(c("#585759", "#9C9999", "#D5D2D1","#A7B7D1","#C8D3DD"), c(1:5)),
+  ErHead = rbind(c("#2E3C4B","#1D394E","#4F6477","#667380","#C2C8C8"), c(1:5)),
+  ErMole = rbind(c("#404147","#506069","#5C8689","#88929A","#AEB3BA"), c(1:5)),
+  ErWhale = rbind(c("#53505A","#495564","#5C616F","#B5BCCB","#DCDCE3"), c(1:5))
 
 )
 
